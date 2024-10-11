@@ -8,14 +8,7 @@ from openai import OpenAI
 
 from openai import OpenAI
 
-client = OpenAI(
-  organization='',
-)
-Example with the
-
-
 #import cv2
-
 
 cnn_string = (r"Driver=(Microsoft Access driver (*.mdb, *.accdb));")
 st.title("Restie")
