@@ -5,7 +5,10 @@ import pyodbc as msacc
 from PIL import Image
 
 #import cv2
-
+client = OpenAI(
+  organization='sk-_CR01dhBq9pZV4_j-4X8C-Y65P1747FF3yQwlN6umST3BlbkFJDvt5HxdRNhO6picD8zhcfRM92FUMsKoPhxqV_Ee_IA',
+  project='$CCLPIHYBRID',
+)
 
 cnn_string = (r"Driver=(Microsoft Access driver (*.mdb, *.accdb));")
 st.title("Restie")
