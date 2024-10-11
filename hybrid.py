@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import pyodbc as msacc
-from st_aggrid import AgGrid
 from PIL import Image
 from openai import OpenAI
 
