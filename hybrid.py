@@ -3,16 +3,11 @@ import streamlit as st
 import pandas as pd
 import pyodbc as msacc
 from PIL import Image
-from openai import OpenAI
-
-from openai import OpenAI
 
 #import cv2
 
 cnn_string = (r"Driver=(Microsoft Access driver (*.mdb, *.accdb));")
 st.title("Restie")
-
-
 
 
 col1, col2, col3 , col4 = st.columns([1,2,3,4])
