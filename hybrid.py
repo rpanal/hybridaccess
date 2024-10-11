@@ -6,6 +6,13 @@ from st_aggrid import AgGrid
 from PIL import Image
 from openai import OpenAI
 
+from openai import OpenAI
+
+client = OpenAI(
+  organization='',
+)
+Example with the
+
 
 #import cv2
 
