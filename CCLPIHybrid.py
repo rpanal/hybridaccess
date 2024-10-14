@@ -5,18 +5,12 @@ import numpy as np
 
 
  
-conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=D:\CCLPIHybridweb\Database3_be.accdb;')
-users_agent = 'SELECT users.userid, users.username, agents.AgentID FROM agents INNER JOIN users ON agents.AgentID = users.agent_ID;'
-cursor = conn.cursor()
+#conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=D:\CCLPIHybridweb\Database3_be.accdb;')
+#users_agent = 'SELECT users.userid, users.username, agents.AgentID FROM agents INNER JOIN users ON agents.AgentID = users.agent_ID;'
 
+#cursor = conn.cursor(conn)
 
-
-# conn = sqlite3.connect('example.db')
-cursor = conn.cursor()
-
-
-cursor.execute('SELECT username, userid from users')
-import streamlit as st
+#cursor.execute('SELECT username, userid from users')
 
 # Title
 st.title("Login Page")
