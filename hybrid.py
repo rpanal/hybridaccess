@@ -7,7 +7,7 @@ import streamlit as st
 #from multipage import MultiPage
 #from pages import page1, page2
  
-conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=.\Database3_be.accdb;')
+conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=Database3_be.accdb;')
 
 relate = 'SELECT username, password FROM users ORDER BY username;'
 
