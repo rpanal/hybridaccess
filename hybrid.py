@@ -1,3 +1,4 @@
+import sqlalchemy
 from sqlalchemy import ColumnElement, true
 import streamlit as st
 import pyodbc
