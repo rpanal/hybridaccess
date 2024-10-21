@@ -5,6 +5,14 @@ import pyodbc
 import pandas as pd
 import numpy as np
 import streamlit as st
+import dataset
+
+db = dataset.connect('sqlite:///Database3_be.accdb')
+table = db['users']
+records = table.find()
+for record in records:
+    print(record)
+
 #from multipage import MultiPage
 #from pages import page1, page2
  
